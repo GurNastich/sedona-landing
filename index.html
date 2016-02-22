@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<title>Седона</title>
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="main-header">
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a class="active" href="#">Информация</a>
+						</li>
+						<li class="main-navigation-item2">
+							<a href="#">Фото и видео</a>
+						</li>
+						<li class="main-navigation-item3">
+							<a href="#">Карта штата</a>
+						</li>
+						<li>
+							<a href="catalog.html">Гостиницы</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="index.html" class="logo">Sedona</a>
+			</header>
+			<main class="main-content">
+				<div class="welcome-block">
+					<h1 class="welcome-title">
+						<span class="welcome-word">Welcome</span>
+						<span class="welcome-phrase">&#8211; to the gorgeous &#8211;</span>
+						<span class="welcome-sedona">Sedona</span>
+					</h1>
+					<blockquote class="welcome-quote">
+						Because the Grand Canyon sucks!
+					</blockquote>
+				</div>
+				<div class="about-block">
+					<h2 class="about-title">Седона&nbsp;&mdash; небольшой городок в&nbsp;Аризоне, заслуживающий большего</h2>
+					<div class="about-text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</div>
+				</div>
+				<div class="reason-with-picture reason-with-picture-1">
+					<div class="reason">
+						<h2 class="reason-caption">Настоящий<br>городок</h2>
+						<div class="reason-number">&#8211; №1 &#8211;</div>
+						<p class="reason-text">Седона&nbsp;&mdash; не аттракцион для туристов,<br>там течет своя жизнь</p>
+					</div>
+				</div>
+				<div class="features-block">
+					<div class="feature-item item-home">
+						<h2 class="feature-caption">Жилье</h2>
+						<p class="feature-text">Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
+					</div>
+					<div class="feature-item item-food">
+						<h2 class="feature-caption">Еда</h2>
+						<p class="feature-text">Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
+					</div>
+					<div class="feature-item item-present">
+						<h2 class="feature-caption">Сувениры</h2>
+						<p class="feature-text">Не только китайского,<br>но и местного производства!</p>
+					</div>
+				</div>
+				<div class="reason-with-picture reason-with-picture-2">
+					<div class="reason">
+						<h2 class="reason-caption">Там есть<br>мост дьявола</h2>
+						<div class="reason-number">&#8211; №2 &#8211;</div>
+						<p class="reason-text">Да, по нему можно пройти!<br>Если конечно вы осмелитесь</p>
+					</div>
+				</div>
+				<div class="reasons-block">
+					<div class="reason">
+						<h2 class="reason-caption">Небольшая<br>площадь</h2>
+						<div class="reason-number">&#8211; №3 &#8211;</div>
+						<p class="reason-text">Все достопримеча-<br>тельности находятся очень близко</p>
+					</div>
+					<div class="reason">
+						<h2 class="reason-caption">Красивая<br>дорога</h2>
+						<div class="reason-number">&#8211; №4 &#8211;</div>
+						<p class="reason-text">Ехать в Седону из Лас-Вегаса совсем<br>не скучно!</p>
+					</div>
+					<div class="reason">
+						<h2 class="reason-caption">Мало<br>туристов</h2>
+						<div class="reason-number">&#8211; №5 &#8211;</div>
+						<p class="reason-text">Большинство едет в Гранд каньон и<br>толпится там</p>
+					</div>
+				</div>
+				<div class="information-block">
+					<h1 class="title">Заинтересовались?</h1>
+					<p>Укажите предполагаемые даты поездки,<br>и мы подскажем вам лучшие предложения гостиниц в Седоне</p>
+				</div>
+				<a href="#" class="search-form-caption">Поиск гостиницы в Седоне</a>
+				<div class="search-block">
+					<form action="https://echo.htmlacademy.ru" method="post" class="search-form">
+						<fieldset class="form-group">
+							<label for="arrival-date" class="form-label">Дата заезда:</label>
+							<input id="arrival-date" class="form-field form-field-date" type="text" name="arrival" placeholder="24 апреля 2014">
+							<button type="button" class="form-icon-btn icon-calendar"></button>
+						</fieldset>
+						<fieldset class="form-group">
+							<label for="depature-date" class="form-label">Дата выезда:</label>
+							<input id="depature-date" class="form-field form-field-date" type="text" name="depature" placeholder="4 июля 2014">
+							<button type="button" class="form-icon-btn icon-calendar"></button>
+						</fieldset>
+						<fieldset class="form-group">
+							<div class="form-col">
+								<label class="form-label" for="adult">Взрослые:</label>
+								<div class="form-counter">
+									<button type="button" class="form-counter-btn icon-minus"></button>
+									<input class="form-field form-field-number" id="adult" type="number" name="adults" value="2" min="0" max="99">
+									<button type="button" class="form-counter-btn icon-plus"></button>
+								</div>
+							</div>
+							<div class="form-col form-col-right">
+								<label class="form-label" for="kid">Дети:</label>
+								<div class="form-counter">
+									<button type="button" class="form-counter-btn icon-minus"></button>
+									<input class="form-field form-field-number" id="kid" type="number" name="kids" value="0" min="0" max="99">
+									<button type="button" class="form-counter-btn icon-plus"></button>
+								</div>
+							</div>
+						</fieldset>
+						<button type="submit" class="btn-submit">Найти</button>
+					</form>
+				</div>
+			</main>
+		</div>
+		<footer class="main-footer">
+			<div class="footer-block footer-hashtag">#visitsedona</div>
+			<div class="footer-block footer-social">
+				<a href="#" class="social-btn icon-twitter"><span class="social-btn-text">Твиттер</span></a>
+				<a href="#" class="social-btn icon-facebook"><span class="social-btn-text">Фейсбук</span></a>
+				<a href="#" class="social-btn icon-youtube"><span class="social-btn-text">Ютуб</span></a>
+			</div>
+			<div class="footer-block footer-copyright">
+				<span class="copyrigth-text">Website by</span><a href="#" class="btn htmlacademy-logo"><i class="sprite sprite-academy-logo"></i>Html Academy</a>
+			</div>
+		</footer> 
+	</body>
+</html>
